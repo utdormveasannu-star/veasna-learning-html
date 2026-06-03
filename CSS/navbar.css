@@ -1,0 +1,22 @@
+.navbar{
+    width: 98%;
+    height: 50px;
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0%;
+}
+.list{
+    display: flex;
+    gap: 20%;
+    list-style: none;
+}
+.list > a:hover{
+    color: blue;
+}
+.item.nav > a{
+    color: whitesmoke;
+}

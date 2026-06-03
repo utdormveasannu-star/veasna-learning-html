@@ -1,0 +1,52 @@
+.container{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 850px;
+    gap: 5px;
+    
+}
+.card{
+    background-color: rgba(99, 102, 102, 0.405);
+    border: 1px solid rgb(89, 92, 94);
+    border-radius: 20px;
+    
+}
+.box{
+    width: 100%;
+    height: 50%;
+    box-shadow: 10px;
+    border: 2px solid rgba(97, 104, 107, 0.594);
+    border-radius: 15px 10px 0 0;
+    overflow: hidden;
+}
+.box > img{
+    width: 100%;
+    height: 100%;
+      
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 10px;
+    padding: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon{
+    text-align: left;
+    margin-top: 5px;
+    
+}
+.description{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.btn button{
+    
+    width: 99%;
+    height: px;
+    border-radius: 15px;
+    padding: auto;
+    background-color: rgba(33, 34, 36, 0.355);
+    
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid" style="background-color: rgba(181, 205, 225, 0.573);">
+        <div class="w-100">
+            <h1 class="text-danger text-opacity-45 fw-bold">Stock Inventory</h1>
+            <p class="">Stock Of Product in Shop</p>
+        </div>
+        <div class="row">
+            <div class="col col-lg-4">
+                <div class="card ">
+                    <div class="d-flex justify-content-between " style="background-image: url(https://i.pinimg.com/736x/62/b8/50/62b850c6919c4d1552782943c5c96659.jpg);">
+                        <div class="p-2">
+                        <h2 class="fw-bold" >TOTAL PRODUCT</h2>
+                         <p>1300 Products</p>
+                        </div>
+                        <p class="p-2"><svg c xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-box-seam-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.01-.003.268-.108a.75.75 0 0 1 .558 0l.269.108.01.003zM10.404 2 4.25 4.461 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339L8 5.961 5.596 5l6.154-2.461z"/>
+                        </svg></p>
+                    </div>
+                </div>
+            </div>
+            
+
+              <div class="col col-lg-4">
+                <div class="card">
+                    <div class="d-flex justify-content-between" style="background-image: url(https://i.pinimg.com/1200x/6d/ae/01/6dae015b0a30ca1082bbd9ed4ea518a3.jpg);">
+                        <div>
+                        <h2 class="p-2">INSTOCK PRODUCT</h2>
+                         <p>1300 Products</p>
+                        </div>
+                        <p> <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-box-arrow-in-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1z"/>
+                            <path fill-rule="evenodd" d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+                            </svg>
+                        </p>
+                    </div>
+                </div>
+            </div>
+                            <!--box3-->
+              <div class="col col-lg-4">
+                <div class="card p-2 ">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                        <h2>OUTSTOCK PRODUCT</h2>
+                         <p>1300 Products</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.01-.003.268-.108a.75.75 0 0 1 .558 0l.269.108.01.003zM10.404 2 4.25 4.461 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339L8 5.961 5.596 5l6.154-2.461z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+          <div class="container-fluid mt-3 ">
+                <div class="">
+                    <p>Inventory Item</p>
+                    <button>add item</button>
+                </div>
+              <table class="table" >
+                <tr>
+                    <th>Item Name</th>
+                    <th>Catagory</th>
+                    <th>Qty</th>
+                    <th>Min Stock</th>
+                    <th>UniT-Price</th>
+                    <th>Supply</th>
+                    <th>Statues</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Into The Night </td>
+                    <td>bodymist</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>$15</td>
+                    <td>Phnom Penh</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>You're The One</td>
+                    <td>bodymist</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>$15</td>
+                    <td>Terk Tla</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>A Thousand Wishes </td>
+                    <td>bodymist</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>$15</td>
+                    <td>Toul Svay Prey</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Princess Moana</td>
+                    <td>bodymist</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>$15</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+          </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-auto-rows: 550px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px;
+    width: 70%;
+    
+}
+.card{
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: #fff8f8;
+    border: 1px solid grey;
+    padding: 25px;
+}
+.card > img{
+    border: 2px solid grey;
+    border-radius: 15px;
+    object-fit: cover;
+    
+}
+.tittle{
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}

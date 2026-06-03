@@ -1,0 +1,15 @@
+.header{
+    text-align: center;
+    color: blueviolet;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form{
+    width: 20vw;
+    height: 40vh;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px auto;
+    background-color: rgba(190, 149, 227, 0.505);
+}
