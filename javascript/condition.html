@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condition</title>
+</head>
+<body>
+    <script>
+        let name, id, gender, salary, position, bonus,total_salary;
+
+        id = Number(prompt("Input ID :"));
+        name = prompt("Input Name :");
+        gender = prompt("Input Gender :");
+        salary = parseFloat(prompt("Input Salary :"));
+        position = prompt("Input Position :")
+        
+
+        if(position.toLowerCase() === "manager"){
+            bonus = 20%
+            alert = ("You got 20% bonus");
+        }
+        else if(position.toLowerCase() === "accounting"){
+            bonus = 15%;
+            alert = ("you got 15% bonus");
+        }
+        else if (position.toLowerCase() === "it"){
+            bonus = 25%;
+            alert = ("You got ");
+        }
+        else{
+            bonus = 10%;
+        }
+
+        total_salary = salary + (salary*bonus)/100;
+
+        document.write("ID :" +id +"<br>")
+        document.write("Name :" +name +"<br>")
+        document.write("Gender :" +gender +"<br>")
+        document.write("Salary :" +salary +"<br>")
+        document.write("Position :" +position +"<br>")
+        document.write("Total Salary :" +total_salary +"<br>")
+
+
+    </script>
+</body>
+</html>

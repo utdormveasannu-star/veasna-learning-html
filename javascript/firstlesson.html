@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let id, name, gender, score1, score2, score3, score4, score5, total, average, grade;
+
+        name = prompt("Input Student Name :");
+        id = Number(prompt("Input ID :"));
+        gender = prompt("Input Gender :");
+        score1 = Number(prompt("Input Score 1 :"));
+        score2 = Number(prompt("Input Score 2 :"));
+        score3 = Number(prompt("Input Score 3 :"));
+        score4 = Number(prompt("Input Score 4 :"));
+        score5 = Number(prompt("Input Score 5 :"));
+
+
+        document.write("Name :" +name +"<br>")
+        document.write("ID :" +id +"<br>")
+        document.write("Gender :" +gender +"<br>")
+        document.write("Score 1 :" +score1 +"<br>")
+        document.write("Score 2 :" +score2 +"<br>")
+        document.write("Score 3 :" +score3 +"<br>")
+        document.write("Score 4 :" +score4 +"<br>")
+        document.write("Score 5 :" +score5 +"<br>")
+
+        total = score1+score2+score3+score4+score5;
+        average = total/5;
+
+        document.write("Total :" +total +"<br>")
+        document.write("Average :" +average +"<br>")
+
+        if( total >= 100 ){
+            document.write("Grade : A")
+        }else if(total >=90){
+            document.write("Grade : B")
+        }else if(total >=80 ){
+            document.write("Grade : C")
+        }else if(total >= 70){
+            document.write("Grade D")
+        }else if(total >=60 ){
+            document.write("Grade : E")
+        }
+        else{
+            document.write("Grade: F (failed)")
+        }
+
+    </script>
+</body>
+</html>

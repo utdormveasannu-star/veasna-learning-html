@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<body>
+
+    <div class="container">
+        <table class="table w-100">
+            <tr><th>Name</th>
+                <th>ID</th>
+                <th>Gender</th>
+                <th>Salary</th>
+                <th>Position</th>
+                <th>Bonus</th>
+                <th>Total Salary</th>
+            </tr>
+            <tr>
+                <td id="name"></td>
+                <td id="id"></td>
+                <td id="=gender"></td>
+                <td id="salary"></td>
+                <td id="position"></td>
+                <td id="bonus"></td>
+                <td id="total"></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+
+        
+
+        let name, id, gender, salary, position, bonus,total_salary;
+
+        id = Number(prompt("Input ID :"));
+        name = prompt("Input Name :");
+        gender = prompt("Input Gender :");
+        salary = parseFloat(prompt("Input Salary :"));
+        position = prompt("Input Position :")
+        
+
+        if(position.toLowerCase() === "manager"){
+            bonus = 20
+            alert = ("You got 20% bonus");
+        }
+        else if(position.toLowerCase() === "accounting"){
+            bonus = 15;
+            alert = ("you got 15% bonus");
+        }
+        else if (position.toLowerCase() === "it"){
+            bonus = 25;
+            alert = ("You got ");
+        }
+        else{
+            bonus = 10;
+        }
+
+        total_salary = salary + (salary*bonus)/100;
+
+        
+
+        document.write("ID :" +id +"<br>")
+        document.write("Name :" +name +"<br>")
+        document.write("Gender :" +gender +"<br>")
+        document.write("Salary :" +salary +"<br>")
+        document.write("Position :" +position +"<br>")
+        document.write("Total Salary :" +total_salary +"<br>")
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

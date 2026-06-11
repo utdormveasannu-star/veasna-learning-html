@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavacSript</title>
+</head>
+<body>
+    <script>
+        let math_score, physic_score, bio_score, english_score, chemistry_score;
+        score = Text(prompt("Input Math Score"));
+        physic_score = Number(prompt("Input Physic Score"));
+        bio_score = Number(prompt("Input Biology Score"));
+        english_score = Number(prompt("Input English Score"));
+        chemistry_score = Number(prompt("Input Chemistry Score"));
+        
+        document.write("Math :" +math_score +"<br>")
+        document.write("Physic :" +physic_score +"<br>")
+        document.write("Biology :" +bio_score +"<br>")
+        document.write("English :" +english_score +"<br>")
+        document.write("Chemistry :" +chemistry_score +"<br>")
+
+
+        document.write("------ Total Score ------" +"<br>")
+        document.write("ToTal = " +(math_score+physic_score+bio_score+english_score+chemistry_score) +"<br>")
+        document.write("--------- Average --------" +"<br>")
+        document.write("Average :" +((math_score+physic_score+bio_score+english_score+chemistry_score)/5) +"<br>")
+        
+    </script>
+</body>
+</html>
